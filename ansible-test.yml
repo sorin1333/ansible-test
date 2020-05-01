@@ -1,0 +1,4 @@
+- hosts: test-pc
+  tasks:
+  - name: Execute a command using the shell module
+    shell: ifconfig
